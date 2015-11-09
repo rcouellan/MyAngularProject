@@ -1,6 +1,9 @@
-/node_modules
-/dist
-/.tmp
-/.sass-cache
-/bower_components
-/SUPPRIMER
+node_modules/
+dist
+.tmp
+.sass-cache
+app/vendor
+*.iml
+.idea/
+npm-debug*.log
+prod/

@@ -1,16 +1,30 @@
 {
   "name": "my-angular-project",
-  "version": "0.0.0",
-  "dependencies": {
-    "angular": "^1.4.0",
-    "angular-cookies": "^1.4.0",
-    "angular-route": "^1.4.0",
-    "angular-sanitize": "^1.4.0",
-    "angular-touch": "^1.4.0"
+  "version": "0.0.1",
+  "authors": [
+    "Ronan Couellan"
+  ],
+    "dependencies": {
+    "angular": "1.4.7",
+    "angular-route": "1.4.7",
+    "angular-cookies": "1.4.7",
+    "angular-ui-bootstrap-bower": "0.13.0",
+    "angular-resource": "1.4.7"
   },
+  "homepage": "https://github.com/rcouellan/MyAngularProject",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "app/vendor",
+    "test",
+    "tests"
+  ],
   "devDependencies": {
-    "angular-mocks": "^1.4.0"
+    "angular-mocks": "1.4.7"
   },
-  "appPath": "app",
-  "moduleName": "myAngularProjectApp"
+  "resolutions": {
+    "angular": "1.2.16"
+  }
 }
